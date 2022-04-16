@@ -1,0 +1,80 @@
+body {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "East Sea Dokdo", cursive;
+    background-image: url(image/eiliv-sonas-aceron-Iu9whQlcnxE-unsplash.jpg);
+  }
+  
+  .container {
+    border: 10px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242, 0.7);
+  }
+  .button-style {
+    height: 80px;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 30pt;
+    font-weight: bold;
+  }
+  .top-title {
+    font-size: 5vw;
+    font-weight: bold;
+    color: blue;
+  }
+  .mid-title {
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .bot-title {
+    font-size: 6vw;
+    font-weight: bold;
+  }
+  
+  .main-img {
+    width: 30vw;
+    height: 20vh
+  }
+  
+  .red-text {
+    color: red;
+  }
+  
+  .form-control {
+    height: 80px;
+  
+    font-size: 3vw;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 48rem) {
+    .top-title {
+      font-size: 10vw;
+    }
+    .mid-title {
+      font-size: 12vw;
+    }
+    .bot-title {
+      font-size: 11vw;
+    }
+    .form-control {
+      font-size: 8vw;
+      max-width: 500px;
+      margin-right: 0px;
+    }
+    .main-img {
+      width: 40vw;
+    }
+    .button-reset {
+      font-size: 5vw;
+      width: 80px;
+      height: 60px;
+    }
+  }
