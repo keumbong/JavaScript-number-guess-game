@@ -6,8 +6,8 @@ let resultAreaImg = document.querySelector(".main-img");
 let resultText = document.querySelector(".result-text");
 let chanceArea = document.getElementById("chance-area");
 let gameOver = false;
-let chances = 5; // 남은 기회
-let userValueList = []; // 유저가 입력한 숫자들 리스트
+let chances = 5;
+let userValueList = [];
 
 chanceArea.innerHTML = `남은 기회:${chances}`;
 playButton.addEventListener("click", play);
@@ -69,7 +69,7 @@ function reset() {
   pickRandomNumber();
   userInput.value = "";
   resultAreaImg.src =
-    "https://media1.giphy.com/media/9DinPR8bzFsmf74j9W/giphy.gif";
+    "https://media3.giphy.com/media/iGkQnxhYpwVlx7prop/giphy.gif";
   resultText.textContent = "마시기 싫다면 맞춰라";
   gameOver = false;
   playButton.disabled = false;
